@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5C3CF51F1A680B009852A3 /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C3CF41F1A680B009852A3 /* PrefsViewController.swift */; };
+		1E5C3CFA1F1B460D009852A3 /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C3CF91F1B460D009852A3 /* EggTimer.swift */; };
+		1E868A851F1A4E1F00E4D989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E868A841F1A4E1F00E4D989 /* AppDelegate.swift */; };
+		1E868A871F1A4E1F00E4D989 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E868A861F1A4E1F00E4D989 /* MenuViewController.swift */; };
+		1E868A891F1A4E1F00E4D989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E868A881F1A4E1F00E4D989 /* Assets.xcassets */; };
+		1E868A8C1F1A4E1F00E4D989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E868A8A1F1A4E1F00E4D989 /* Main.storyboard */; };
+		1E868A951F1A578200E4D989 /* EggTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E868A941F1A578200E4D989 /* EggTimerController.swift */; };
+		1ECD30121F1D0A2200E2A0E5 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD30111F1D0A2200E2A0E5 /* Preferences.swift */; };
+		1ECD30141F1DA53300E2A0E5 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1ECD30131F1DA53300E2A0E5 /* ding.mp3 */; };
+		1ECD30171F1DC5CA00E2A0E5 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD30161F1DC5CA00E2A0E5 /* Circle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E5C3CF41F1A680B009852A3 /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		1E5C3CF91F1B460D009852A3 /* EggTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
+		1E868A811F1A4E1F00E4D989 /* WhiteMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E868A841F1A4E1F00E4D989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E868A861F1A4E1F00E4D989 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1E868A881F1A4E1F00E4D989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E868A8B1F1A4E1F00E4D989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E868A8D1F1A4E1F00E4D989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E868A8E1F1A4E1F00E4D989 /* WhiteMusicPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhiteMusicPlayer.entitlements; sourceTree = "<group>"; };
+		1E868A941F1A578200E4D989 /* EggTimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerController.swift; sourceTree = "<group>"; };
+		1ECD30111F1D0A2200E2A0E5 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		1ECD30131F1DA53300E2A0E5 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ding.mp3; path = ../../../../../Downloads/ding.mp3; sourceTree = "<group>"; };
+		1ECD30161F1DC5CA00E2A0E5 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E868A7E1F1A4E1F00E4D989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5C3CF61F1B4578009852A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E868A861F1A4E1F00E4D989 /* MenuViewController.swift */,
+				1E868A941F1A578200E4D989 /* EggTimerController.swift */,
+				1E5C3CF41F1A680B009852A3 /* PrefsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1E5C3CF71F1B4586009852A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C3CF91F1B460D009852A3 /* EggTimer.swift */,
+				1ECD30111F1D0A2200E2A0E5 /* Preferences.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E5C3CF81F1B45D4009852A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E868A8E1F1A4E1F00E4D989 /* WhiteMusicPlayer.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E868A781F1A4E1F00E4D989 = {
+			isa = PBXGroup;
+			children = (
+				1E868A831F1A4E1F00E4D989 /* WhiteMusicPlayer */,
+				1E868A821F1A4E1F00E4D989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E868A821F1A4E1F00E4D989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E868A811F1A4E1F00E4D989 /* WhiteMusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E868A831F1A4E1F00E4D989 /* WhiteMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1E868A841F1A4E1F00E4D989 /* AppDelegate.swift */,
+				1E5C3CF61F1B4578009852A3 /* Controller */,
+				1E5C3CF71F1B4586009852A3 /* Model */,
+				1ECD30151F1DC5AB00E2A0E5 /* View */,
+				1E868A881F1A4E1F00E4D989 /* Assets.xcassets */,
+				1E868A8A1F1A4E1F00E4D989 /* Main.storyboard */,
+				1ECD30131F1DA53300E2A0E5 /* ding.mp3 */,
+				1E868A8D1F1A4E1F00E4D989 /* Info.plist */,
+				1E5C3CF81F1B45D4009852A3 /* Supporting Files */,
+			);
+			path = WhiteMusicPlayer;
+			sourceTree = "<group>";
+		};
+		1ECD30151F1DC5AB00E2A0E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1ECD30161F1DC5CA00E2A0E5 /* Circle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E868A801F1A4E1F00E4D989 /* WhiteMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E868A911F1A4E1F00E4D989 /* Build configuration list for PBXNativeTarget "WhiteMusicPlayer" */;
+			buildPhases = (
+				1E868A7D1F1A4E1F00E4D989 /* Sources */,
+				1E868A7E1F1A4E1F00E4D989 /* Frameworks */,
+				1E868A7F1F1A4E1F00E4D989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteMusicPlayer;
+			productName = WhiteMusicPlayer;
+			productReference = 1E868A811F1A4E1F00E4D989 /* WhiteMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E868A791F1A4E1F00E4D989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = HanLiu;
+				TargetAttributes = {
+					1E868A801F1A4E1F00E4D989 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 1E868A7C1F1A4E1F00E4D989 /* Build configuration list for PBXProject "WhiteMusicPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E868A781F1A4E1F00E4D989;
+			productRefGroup = 1E868A821F1A4E1F00E4D989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E868A801F1A4E1F00E4D989 /* WhiteMusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E868A7F1F1A4E1F00E4D989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E868A891F1A4E1F00E4D989 /* Assets.xcassets in Resources */,
+				1E868A8C1F1A4E1F00E4D989 /* Main.storyboard in Resources */,
+				1ECD30141F1DA53300E2A0E5 /* ding.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E868A7D1F1A4E1F00E4D989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E868A951F1A578200E4D989 /* EggTimerController.swift in Sources */,
+				1E868A871F1A4E1F00E4D989 /* MenuViewController.swift in Sources */,
+				1ECD30171F1DC5CA00E2A0E5 /* Circle.swift in Sources */,
+				1ECD30121F1D0A2200E2A0E5 /* Preferences.swift in Sources */,
+				1E5C3CFA1F1B460D009852A3 /* EggTimer.swift in Sources */,
+				1E868A851F1A4E1F00E4D989 /* AppDelegate.swift in Sources */,
+				1E5C3CF51F1A680B009852A3 /* PrefsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E868A8A1F1A4E1F00E4D989 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E868A8B1F1A4E1F00E4D989 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E868A8F1F1A4E1F00E4D989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E868A901F1A4E1F00E4D989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1E868A921F1A4E1F00E4D989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5BD5HJ4427;
+				INFOPLIST_FILE = WhiteMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starfox.WhiteMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1E868A931F1A4E1F00E4D989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5BD5HJ4427;
+				INFOPLIST_FILE = WhiteMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starfox.WhiteMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E868A7C1F1A4E1F00E4D989 /* Build configuration list for PBXProject "WhiteMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E868A8F1F1A4E1F00E4D989 /* Debug */,
+				1E868A901F1A4E1F00E4D989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E868A911F1A4E1F00E4D989 /* Build configuration list for PBXNativeTarget "WhiteMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E868A921F1A4E1F00E4D989 /* Debug */,
+				1E868A931F1A4E1F00E4D989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E868A791F1A4E1F00E4D989 /* Project object */;
+}
